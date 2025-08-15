@@ -65,3 +65,17 @@
 -- User 3 made 2 requests and both timed out. The confirmation rate is 0.
 -- User 7 made 3 requests and all were confirmed. The confirmation rate is 1.
 -- User 2 made 2 requests where one was confirmed and the other timed out. The confirmation rate is 1 / 2 = 0.5.
+
+SELECT 
+    s.user_id, 
+    ifnull(ROUND(SUM(CASE WHEN c.action = 'confirmed' THEN 1 ELSE 0 END) / COUNT(c.action), 2),0) AS confirmation_rate
+FROM 
+    signups s
+LEFT JOIN 
+    confirmations c
+ON 
+    s.user_id = c.user_id
+GROUP BY 
+    s.user_id;
+
+
