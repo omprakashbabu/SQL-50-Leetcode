@@ -3,7 +3,7 @@
 -- +-------------+-------+
 -- | Column Name | Type  |
 -- +-------------+-------+
--- | sale_id     | int   |
+-- | sale_id     | int   |  
 -- | product_id  | int   |
 -- | year        | int   |
 -- | quantity    | int   |
