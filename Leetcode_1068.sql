@@ -14,7 +14,7 @@
 -- Each row of this table shows a sale on the product product_id in a certain year.
 -- Note that the price is per unit.
 
--- Table: Product
+-- Table: Product 
 -- +--------------+---------+
 -- | Column Name  | Type    |
 -- +--------------+---------+  
