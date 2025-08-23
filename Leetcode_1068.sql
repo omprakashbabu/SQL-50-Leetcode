@@ -6,7 +6,7 @@
 -- | sale_id     | int   |  
 -- | product_id  | int   |
 -- | year        | int   |
--- | quantity    | int   | 
+-- | quantity    | int   |  
 -- | price       | int   | 
 -- +-------------+-------+
 -- (sale_id, year) is the primary key (combination of columns with unique values) of this table.  
