@@ -4,7 +4,7 @@
 -- | Column Name | Type  |
 -- +-------------+-------+   
 -- | sale_id     | int   |  
--- | product_id  | int   |
+-- | product_id  | int   | 
 -- | year        | int   |
 -- | quantity    | int   |  
 -- | price       | int   | 
