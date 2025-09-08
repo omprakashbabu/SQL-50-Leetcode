@@ -2,7 +2,7 @@
 -- Table: Views
 -- +---------------+---------+
 -- | Column Name   | Type    |
--- +---------------+---------+
+-- +---------------+---------+ 
 -- | article_id    | int     |
 -- | author_id     | int     |
 -- | viewer_id     | int     |
