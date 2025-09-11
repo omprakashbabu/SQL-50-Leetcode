@@ -2,7 +2,7 @@
 -- Table: World
 
 -- +-------------+---------+
--- | Column Name | Type    |
+-- | Column Name | Type    | 
 -- +-------------+---------+
 -- | name        | varchar |
 -- | continent   | varchar |
