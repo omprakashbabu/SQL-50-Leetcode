@@ -1,5 +1,5 @@
 -- 595. Big Countries
--- Table: World
+-- Table: World  
 
 -- +-------------+---------+
 -- | Column Name | Type    | 
